@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application - Project 2 by Susmita</title>
+    <!-- linking output css of tailwind  -->
+    <link rel="stylesheet" href="./output.css" />
+    <!-- linking stylesheet css  -->
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>Weather Dashboard</h1> <!--Headline-->
+    <div class="container">
+        <div class="weather-input">
+            <h3>Enter a city Name</h3>
+            <input type="text" class="city-input" placeholder="E.g., New York, London, Tokyo" >
+            <button class="search-btn">Search</button>
+            <div class="separator"></div>
+            <button class="location-btn">Use Current Location</button>
+        </div>
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>_________ ( ______ )</h2>
+                    <h4>Temperature: ___°C</h4>
+                    <h4>Wind:___ M/S</h4>
+                    <h4>Humidity: ___%</h4>
+                </div>
+                
+            </div>
+            <div class="days-forecast">
+                <h2>5-Day Forecast</h2>
+                <ul class="weather-cards"> 
+                    <li class="card">
+                        <h3>( __________ )</h3>
+                        <h4>Temp: ___°C</h4>
+                        <h4>Wind:___ M/S</h4>
+                        <h4>Humidity: ___%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( __________ )</h3>
+                        <h4>Temp: ___°C</h4>
+                        <h4>Wind:___ M/S</h4>
+                        <h4>Humidity: ___%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( __________ )</h3>
+                        <h4>Temp: ___°C</h4>
+                        <h4>Wind:___ M/S</h4>
+                        <h4>Humidity: ___%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( __________ )</h3>
+                        <h4>Temp: ___°C</h4>
+                        <h4>Wind:___ M/S</h4>
+                        <h4>Humidity: ___%</h4>
+                    </li>
+                    <li class="card">
+                        <h3>( __________ )</h3>
+                        <h4>Temp: ___°C</h4>
+                        <h4>Wind:___ M/S</h4>
+                        <h4>Humidity: ___%</h4>
+                    </li>
+                </ul>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <!--Footer section-->
+    <footer>
+        <br>
+        <!--Icons-->
+        <div class="footer-icons">
+            <a href="https://github.com/Susmita-Maity" ><i class="fa-brands fa-github"></i></a> 
+            <a href="https://www.linkedin.com/in/susmita-maity-9b7b58286"><i class="fa-brands fa-linkedin"></i></a> 
+        </div>
+        
+        <br>
+        <p>Made with <i class="fas fa-heart"></i> by <a href="https://www.instagram.com/invites/contact/?igsh=ptu7s0gbzdsx&utm_content=kmnibrz">Susmita Maity</a></p>
+        <p>&copy; 2024  All rights reserved.<i class="fa-solid fa-cloud" style="color: #eceff9;"></i></p>
+    </footer>
+    <!-- external js file linking  -->
+    <script src="./script.js"></script>
+</body>
+</html>
